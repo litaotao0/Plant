@@ -1,3 +1,4 @@
+# **Plant**
 
 这是一个图像识别项目，基于 tensorflow，现有的 CNN 网络可以识别四种花的种类。项目包括对数据集的处理，从硬盘读取数据，CNN 网络的定义，训练过程，还实现了一个 GUI 界面用于使用训练好的网络。
 
@@ -22,6 +23,4 @@ logs_train_dir = 'D:/ML/flower/save'  # logs存储路径
 - 运行 train.py 开始训练。
 - 训练完成后，修改 test.py 中的`logs_train_dir = 'D:/ML/flower/save/'`为你的目录。
 - 运行 test.py  查看结果。
-
-# Plant
 
